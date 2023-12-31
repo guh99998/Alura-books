@@ -8,6 +8,16 @@
     background-position: center;
 }
 
+.container__botao:checked ~ .container__rotulo > .cabecalho__menu-hamburguer
+{
+    background-image: url("../assets/Menu\ Aberto.svg");
+}
+
+.container__botao:checked ~ .container__rotulo
+{
+    background: var(--cor-azul-gradiente);
+}
+
 .cabecalho
 {
     background-color: var(--cor-branca);
@@ -139,6 +149,28 @@
     .opcoes__botao
     {
         display: none;
+    }
+
+    .opcoes__botao:checked ~.opcoes__rotulo > .opcoes__item
+    {
+        background: var(--cor-azul-gradiente);
+        color: var(--cor-branca);
+    }
+
+    .opcoes__item
+    {
+        padding: 2em 1em;
+    }
+
+    .lista-menu__item:hover
+    {
+        background: var(--cor-azul-gradiente);
+    }
+
+    .lista-menu__item:hover > .lista-menu__link
+    {
+        -webkit-text-fill-color: var(--cor-branca);
+        text-decoration: none;
     }
 }
 
