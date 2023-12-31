@@ -1,0 +1,43 @@
+.contato
+{
+    background: var(--cor-branca);
+    padding: 1em;
+}
+
+.contato__titulo,
+.contato__titulo
+{
+    background: var(--cor-azul-gradiente);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.contato__titulo
+{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.contato__descricao
+{
+    font-weight: 300;
+    margin: 1em 0;
+}
+
+.contato__cadastro
+{
+    border-radius: 24px;
+    padding: 1em;
+    width: 90%;
+    border: 1px solid var(--cor-azul);
+    color: var(--cor-azul);
+}
+
+.contato__cadastro::placeholder
+{
+    font-family: var(--fonte-principal);
+    color: var(--cor-azul);
+    background: url(../assets/Email.svg) no-repeat;
+    padding-left: 2em;
+}
