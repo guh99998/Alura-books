@@ -1,5 +1,6 @@
 @import url("/styles/header.css");
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap');
 @import url("/styles/banner.css");
 @import url("/styles/carrossel.css");
 @import url("/styles/topicos.css");
@@ -13,8 +14,10 @@
     --branco-rodape: #F9F9F9;
     --cor-titulo: #EB9B00;
     --cor-azul: #002F52;
+    --cor-preta: #000000;
     --cor-azul-gradiente: linear-gradient(98deg, #002F52 35.49%, #326589 165.37%);
     --fonte-principal: 'Poppins', sans-serif;
+    --fonte-tablet: 'Josefin Sans', sans-serif;
 }
 
 body
